@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "name": "General Customer Local",
+    "name_locale": "អតិថិជនក្នុងតំបន់",
+    "name_ac": "អតិថិជនសមាជិក",
+    "abbr": "GCL",
+    "nature": "Individual-Local",
+    "payment_term": "N30",
+    "payment_option": "Cash",
+    "ar_account": "1020100",
+    "sale_deposit_account": "2220300",
+    "unearn_account": "2220300",
+    "vat_tax": "VAT (10%/NET)"
+  },
+  {
+    "id": "5",
+    "name": "General Customer Foreign",
+    "name_locale": "អតិថិជនក្រៅតំបន់",
+    "name_ac": "អតិថិជនក្រៅសមាជិក",
+    "abbr": "GCF",
+    "nature": "Individual-Foreign",
+    "payment_term": "N30",
+    "payment_option": "Cash",
+    "ar_account": "1020100",
+    "sale_deposit_account": "2220300",
+    "unearn_account": "2220300",
+    "vat_tax": "VAT (10%/NET)"
+  },
+  {
+    "id": "2",
+    "name": "Non-taxable Entity",
+    "name_locale": "Non-taxable Entity",
+    "name_ac": "Non-taxable Entity",
+    "abbr": "NC",
+    "nature": "Non-Taxable Entity",
+    "payment_term": "N30",
+    "payment_option": "Cash",
+    "ar_account": "1020100",
+    "sale_deposit_account": "2220300",
+    "unearn_account": "2220300",
+    "vat_tax": "VAT Exempt"
+  },
+  {
+    "id": "3",
+    "name": "Taxable Entity",
+    "name_locale": "Taxable Entity",
+    "name_ac": "Taxable Entity",
+    "abbr": "TC",
+    "nature": "Taxable Entity",
+    "payment_term": "N30",
+    "payment_option": "Cash",
+    "ar_account": "1020100",
+    "sale_deposit_account": "2220300",
+    "unearn_account": "2220300",
+    "vat_tax": "VAT (10%/NET)"
+  },
+  {
+    "id": "4",
+    "name": "Foreign Company",
+    "name_locale": "Foreign Company",
+    "name_ac": "Foreign Company",
+    "abbr": "FC",
+    "nature": "Foreign Entity",
+    "payment_term": "N30",
+    "payment_option": "Cash",
+    "ar_account": "1020100",
+    "sale_deposit_account": "2220300",
+    "unearn_account": "2220300",
+    "vat_tax": "VAT (10%/NET)"
+  }
+]
