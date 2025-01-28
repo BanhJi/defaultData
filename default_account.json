@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "name": "Other Revenues",
+    "nameLocale": "Other Revenues",
+    "account": "740040",
+    "isSystem": 1
+  },
+  {
+    "id": "2",
+    "name": "Gain/Loss on rate exchange",
+    "nameLocale": "Gain/Loss on rate exchange",
+    "account": "740010",
+    "isSystem": 1
+  }
+]

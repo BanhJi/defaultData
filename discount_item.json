@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "name": "Discount 0%",
+        "code": "SD01",
+        "nature": "Percentage",
+        "type": "Sale",
+        "amount": "0",
+        "discount_item_account": "432990"
+    },
+    {
+        "id": "2",
+        "name": "Discount 0%",
+        "code": "PD01",
+        "nature": "Percentage",
+        "type": "Purchase",
+        "amount": "0",
+        "discount_item_account": "533990"
+    }
+]

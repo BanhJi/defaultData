@@ -1,0 +1,85 @@
+[
+  {
+    "id": "tap-uuid-3",
+    "name": "Resident Salary",
+    "nature": {
+      "id": "Resident_Salary",
+      "name": "Resident Salary"
+    },
+    "currency": {
+    },
+    "account": "221020",
+    "rate": [
+      {
+        "taxRate": "0",
+        "from": "0",
+        "amount": "0",
+        "to": "1300000"
+      },
+      {
+        "taxRate": "5",
+        "from": "1300001",
+        "amount": "65000",
+        "to": "2000000"
+      },
+      {
+        "taxRate": "10",
+        "from": "2000001",
+        "amount": "165000",
+        "to": "8500000"
+      },
+      {
+        "taxRate": "15",
+        "from": "8500001",
+        "amount": "590000",
+        "to": "12500000"
+      },
+      {
+        "taxRate": "20",
+        "from": "12500001",
+        "amount": "1215000",
+        "to": "UP TO"
+      }
+    ],
+    "effectiveDate": "2021-01-01"
+  },
+  {
+    "id": "tap-uuid-1",
+    "name": "Non-Resident Salary",
+    "nature": {
+      "id": "Non_resident_Salary",
+      "name": "Non-resident Salary"
+    },
+    "currency": {
+    },
+    "account": "221020",
+    "rate": "20",
+    "effectiveDate": "2021-01-01"
+  },
+  {
+    "id": "tap-uuid-2",
+    "name": "Fringe Benefit",
+    "nature": {
+      "id": "Fringe_Benefit",
+      "name": "Fringe Benefit"
+    },
+    "currency": {
+    },
+    "account": "221040",
+    "rate": "20",
+    "effectiveDate": "2021-01-01"
+  },
+  {
+    "id": "tap-uuid-4",
+    "name": "Dependency",
+    "nature": {
+      "id": "Dependency",
+      "name": "Dependency"
+    },
+    "currency": {
+    },
+    "account": "221020",
+    "amount": "150000",
+    "effectiveDate": "2021-01-01"
+  }
+]
