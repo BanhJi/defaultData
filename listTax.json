@@ -1,0 +1,1800 @@
+[
+    {
+      "subId": "1",
+      "code": 1,
+      "defaultTax": "VAT (10%/INC)",
+      "defaultTaxLocale": "អតប អត្រា 10%",
+      "transactionType": "Sale",
+      "description": "Value Added Tax with 10% applying with VAT inclusive amount",
+      "account": {
+        "number": 221010,
+        "name": "Sale Tax (VAT) Payable",
+        "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 47,
+          "name": "Sale Tax (VAT) Payable",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Short term customer deposit"
+      },
+      "taxBase": 100,
+      "rate": 10,
+      "baseAmount": "inclusive",
+      "natureTaxPayer": "Both",
+      "formula": "inAmt*rate/(1+rate)"
+    },
+    {
+      "subId": "1",
+      "code": 1,
+      "defaultTax": "VAT (10%/NET)",
+      "defaultTaxLocale": "អតប អត្រា 10%",
+      "transactionType": "Sale",
+      "description": "Value Added Tax with 10% applying with VAT exclusive amount",
+      "account": {
+        "number": 221010,
+        "name": "Sale Tax (VAT) Payable",
+        "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 47,
+          "name": "Sale Tax (VAT) Payable",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Short term customer deposit"
+      },
+      "taxBase": 100,
+      "rate": 10,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Both",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "1",
+      "code": 3,
+      "defaultTax": "VAT Exempt",
+      "defaultTaxLocale": "មិនជាប់ អតប",
+      "transactionType": "Sale",
+      "description": "Value Added Tax for exempted product or services",
+      "account": {
+        "number": 221010,
+        "name": "Sale Tax (VAT) Payable",
+        "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 47,
+          "name": "Sale Tax (VAT) Payable",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Short term customer deposit"
+      },
+      "taxBase": 100,
+      "rate": 0,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Both",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "1",
+      "code": 2,
+      "defaultTax": "VAT Zero Rate",
+      "defaultTaxLocale": "អតប អត្រា 0% (VAT0)",
+      "transactionType": "Sale",
+      "description": "Value Added Tax for 0% tax product or services",
+      "account": {
+        "number": 221010,
+        "name": "Sale Tax (VAT) Payable",
+        "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 47,
+          "name": "Sale Tax (VAT) Payable",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Short term customer deposit"
+      },
+      "taxBase": 100,
+      "rate": 0,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Both",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "1",
+      "code": 5,
+      "defaultTax": "VAT 10 (State Charge)",
+      "defaultTaxLocale": "អតប បន្ទុករដ្ឋ 10%",
+      "transactionType": "Sale",
+      "description": "Value Added Tax with 10% applying with VAT exclusive state charge amount",
+      "account": {
+        "number": 221010,
+        "name": "Sale Tax (VAT) Payable",
+        "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 47,
+          "name": "Sale Tax (VAT) Payable",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Short term customer deposit"
+      },
+      "taxBase": 100,
+      "rate": 10,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Both",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "1",
+      "code": 1,
+      "defaultTax": "VAT (10%/INC)",
+      "defaultTaxLocale": "អតប អត្រា 10%",
+      "transactionType": "Purchase",
+      "description": "Value Added Tax with 10% applying with VAT inclusive amount",
+      "account": {
+        "number": 110020,
+        "name": "VAT Input",
+        "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+        "accTypeCode": 10,
+        "accType": {
+          "name": "Current Tax Assets",
+          "nameLocale": "ទ្រព្យសកម្មសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "dr",
+          "natureCode": 1,
+          "satementGroup": "CURRENT ASSET",
+          "description": "All current assets related to tax, including, prepaid profit tax, VAT input, and VAT credit carried forward."
+        },
+        "group": {
+          "id": 23,
+          "name": "VAT Input",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+          "typeName": "Current Tax Assets"
+        },
+        "natureBalance": "DEBIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Value added tax levied on the purchase"
+      },
+      "taxBase": 100,
+      "rate": 10,
+      "baseAmount": "inclusive",
+      "natureTaxPayer": "Both",
+      "formula": "inAmt*rate/(1+rate)"
+    },
+    {
+      "subId": "1",
+      "code": 1,
+      "defaultTax": "VAT (10%/NET)",
+      "defaultTaxLocale": "អតប អត្រា 10%",
+      "transactionType": "Purchase",
+      "description": "Value Added Tax with 10% applying with VAT exclusive amount",
+      "account": {
+        "number": 110020,
+        "name": "VAT Input",
+        "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+        "accTypeCode": 10,
+        "accType": {
+          "name": "Current Tax Assets",
+          "nameLocale": "ទ្រព្យសកម្មសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "dr",
+          "natureCode": 1,
+          "satementGroup": "CURRENT ASSET",
+          "description": "All current assets related to tax, including, prepaid profit tax, VAT input, and VAT credit carried forward."
+        },
+        "group": {
+          "id": 23,
+          "name": "VAT Input",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+          "typeName": "Current Tax Assets"
+        },
+        "natureBalance": "DEBIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Value added tax levied on the purchase"
+      },
+      "taxBase": 100,
+      "rate": 10,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Both",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "1",
+      "code": 3,
+      "defaultTax": "VAT Exempt",
+      "defaultTaxLocale": "មិនជាប់ អតប",
+      "transactionType": "Purchase",
+      "description": "Value Added Tax for exempted product or services",
+      "account": {
+        "number": 110020,
+        "name": "VAT Input",
+        "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+        "accTypeCode": 10,
+        "accType": {
+          "name": "Current Tax Assets",
+          "nameLocale": "ទ្រព្យសកម្មសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "dr",
+          "natureCode": 1,
+          "satementGroup": "CURRENT ASSET",
+          "description": "All current assets related to tax, including, prepaid profit tax, VAT input, and VAT credit carried forward."
+        },
+        "group": {
+          "id": 23,
+          "name": "VAT Input",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+          "typeName": "Current Tax Assets"
+        },
+        "natureBalance": "DEBIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Value added tax levied on the purchase"
+      },
+      "taxBase": 100,
+      "rate": 0,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Both",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "1",
+      "code": 2,
+      "defaultTax": "VAT Zero Rate",
+      "defaultTaxLocale": "អតប អត្រា 0% (VAT0)",
+      "transactionType": "Purchase",
+      "description": "Value Added Tax for 0% tax product or services",
+      "account": {
+        "number": 110020,
+        "name": "VAT Input",
+        "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+        "accTypeCode": 10,
+        "accType": {
+          "name": "Current Tax Assets",
+          "nameLocale": "ទ្រព្យសកម្មសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "dr",
+          "natureCode": 1,
+          "satementGroup": "CURRENT ASSET",
+          "description": "All current assets related to tax, including, prepaid profit tax, VAT input, and VAT credit carried forward."
+        },
+        "group": {
+          "id": 23,
+          "name": "VAT Input",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+          "typeName": "Current Tax Assets"
+        },
+        "natureBalance": "DEBIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Value added tax levied on the purchase"
+      },
+      "taxBase": 100,
+      "rate": 0,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Both",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "1",
+      "code": 4,
+      "defaultTax": "Non-creditable Purchase",
+      "defaultTaxLocale": "មិនអនុញ្ញាតឥណទាន",
+      "transactionType": "Purchase",
+      "description": "Non-creditable Purchase",
+      "account": {
+        "number": 110020,
+        "name": "VAT Input",
+        "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+        "accTypeCode": 10,
+        "accType": {
+          "name": "Current Tax Assets",
+          "nameLocale": "ទ្រព្យសកម្មសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "dr",
+          "natureCode": 1,
+          "satementGroup": "CURRENT ASSET",
+          "description": "All current assets related to tax, including, prepaid profit tax, VAT input, and VAT credit carried forward."
+        },
+        "group": {
+          "id": 23,
+          "name": "VAT Input",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+          "typeName": "Current Tax Assets"
+        },
+        "natureBalance": "DEBIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Value added tax levied on the purchase"
+      },
+      "taxBase": 100,
+      "rate": 0,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Both",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "1",
+      "code": 5,
+      "defaultTax": "VAT 10 (State Charge)",
+      "defaultTaxLocale": "អតប បន្ទុករដ្ឋ 10%",
+      "transactionType": "Purchase",
+      "description": "Value Added Tax with 10% applying with VAT exclusive state charge amount",
+      "account": {
+        "number": 110020,
+        "name": "VAT Input",
+        "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+        "accTypeCode": 10,
+        "accType": {
+          "name": "Current Tax Assets",
+          "nameLocale": "ទ្រព្យសកម្មសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "dr",
+          "natureCode": 1,
+          "satementGroup": "CURRENT ASSET",
+          "description": "All current assets related to tax, including, prepaid profit tax, VAT input, and VAT credit carried forward."
+        },
+        "group": {
+          "id": 23,
+          "name": "VAT Input",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+          "typeName": "Current Tax Assets"
+        },
+        "natureBalance": "DEBIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Value added tax levied on the purchase"
+      },
+      "taxBase": 100,
+      "rate": 10,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Both",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "2",
+      "code": 1,
+      "defaultTax": "SRI/R/WHT (15%/INC)",
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើសេវាកម្ម ១៥%",
+      "transactionType": "Purchase",
+      "description": "WHT (15%) Performance of Services, Royalty for Intangibles, Interests in Minerals",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 15,
+      "baseAmount": "Inclusive",
+      "natureTaxPayer": "Resident",
+      "formula": "inAmt*rate"
+    },
+    {
+      "subId": "2",
+      "code": 2,
+      "defaultTax": "IN/R/WHT (15%/INC)",
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើការប្រាក់ ១៥%",
+      "transactionType": "Purchase",
+      "description": "Payment of Interest to Non-Bank or Saving Institution Taxpayers",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 15,
+      "baseAmount": "Inclusive",
+      "natureTaxPayer": "Resident",
+      "formula": "inAmt*rate"
+    },
+    {
+      "subId": "2",
+      "code": 3,
+      "defaultTax": "ITF/R/WHT (6%/INC)",
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើការប្រាក់ ៦%",
+      "transactionType": "Purchase",
+      "description": "Payment of Interest to Taxpayers who have Fixed Term Deposit accountounts",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 6,
+      "baseAmount": "Inclusive",
+      "natureTaxPayer": "Resident",
+      "formula": "inAmt*rate"
+    },
+    {
+      "subId": "2",
+      "code": 4,
+      "defaultTax": "ITN/R/WHT (4%/INC)",
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើការប្រាក់ ៤%",
+      "transactionType": "Purchase",
+      "description": "Payment of Interest to Taxpayers who have non-fixed Term Deposit accountount",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 4,
+      "baseAmount": "Inclusive",
+      "natureTaxPayer": "Resident",
+      "formula": "inAmt*rate"
+    },
+    {
+      "subId": "2",
+      "code": 6,
+      "defaultTax": "RL/R/WHT (10%/INC)",
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើថ្លៃឈ្នួល (នីតិបុគ្គល) ១០%",
+      "transactionType": "Purchase",
+      "description": "Payment of Rental/ lease of Moveable and Immovable Property",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 10,
+      "baseAmount": "Inclusive",
+      "natureTaxPayer": "Resident",
+      "formula": "inAmt*rate"
+    },
+    {
+      "subId": "2",
+      "code": 7,
+      "defaultTax": "INT/NR/WHT (14%/INC)",
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើអនិវាសនជន (ភាគលាភ) ១៤%",
+      "transactionType": "Purchase",
+      "description": "Payment of interest",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 14,
+      "baseAmount": "Inclusive",
+      "natureTaxPayer": "Non-Resident",
+      "formula": "inAmt*rate"
+    },
+    {
+      "subId": "2",
+      "code": 8,
+      "defaultTax": "RRL/NR/WHT (14%/INC)",
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើអនិវាសនជន (ការប្រាក់) ១៤%",
+      "transactionType": "Purchase",
+      "description": "Payment of Royalty, Rental/ Leasing, and Income related to use of property",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 14,
+      "baseAmount": "Inclusive",
+      "natureTaxPayer": "Non-Resident",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "2",
+      "code": 9,
+      "defaultTax": "MT/NR/WHT (14%/INC)",
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើអនិវាសនជន (សួយសារ ថ្លៃឈ្នួល) ១៤%",
+      "transactionType": "Purchase",
+      "description": "Payment of Management Fee and Technical Service",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 14,
+      "baseAmount": "Inclusive",
+      "natureTaxPayer": "Non-Resident",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "2",
+      "code": 10,
+      "defaultTax": "DIV/NR/WHT (14%/INC)",
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើអនិវាសនជន (សេវាគ្រប់គ្រង បច្ចេកទេស) ១៤%",
+      "transactionType": "Purchase",
+      "description": "Payment of Dividend",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 14,
+      "baseAmount": "Inclusive",
+      "natureTaxPayer": "Non-Resident",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "2",
+      "defaultTax": "SRI/R/WHT (15%/NET)",
+      "code": 1,
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើសេវាកម្ម ១៥%",
+      "transactionType": "Purchase",
+      "description": "WHT (15%) Performance of Services, Royalty for Intangibles, Interests in Minerals",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 15,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Resident",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "2",
+      "defaultTax": "IN/R/WHT (15%/NET)",
+      "code": 2,
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើការប្រាក់ ១៥%",
+      "transactionType": "Purchase",
+      "description": "Payment of Interest to Non-Bank or Saving Institution Taxpayers",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 15,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Resident",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "2",
+      "defaultTax": "ITF/R/WHT (6%/NET)",
+      "code": 3,
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើការប្រាក់ ៦%",
+      "transactionType": "Purchase",
+      "description": "Payment of Interest to Taxpayers who have Fixed Term Deposit accountounts",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 6,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Resident",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "2",
+      "defaultTax": "ITN/R/WHT (4%/NET)",
+      "code": 4,
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើការប្រាក់ ៤%",
+      "transactionType": "Purchase",
+      "description": "Payment of Interest to Taxpayers who have non-fixed Term Deposit accountount",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 4,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Resident",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "2",
+      "defaultTax": "RL/R/WHT (10%/NET)",
+      "code": 6,
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើថ្លៃឈ្នួល (នីតិបុគ្គល) ១០%",
+      "transactionType": "Purchase",
+      "description": "Payment of Rental/ lease of Movable and Immovable Property",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 10,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Resident",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "2",
+      "defaultTax": "INT/NR/WHT (14%/NET)",
+      "code": 7,
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើអនិវាសនជន (ភាគលាភ) ១៤%",
+      "transactionType": "Purchase",
+      "description": "Payment of interest",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 14,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Non-Resident",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "2",
+      "defaultTax": "RRL/NR/WHT (14%/NET)",
+      "code": 8,
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើអនិវាសនជន (ការប្រាក់) ១៤%",
+      "transactionType": "Purchase",
+      "description": "Payment of Royalty, Rental/ Leasing, and Income related to use of property",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 14,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Non-Resident",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "2",
+      "defaultTax": "MT/NR/WHT (14%/NET)",
+      "code": 9,
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើអនិវាសនជន (សួយសារ ថ្លៃឈ្នួល) ១៤%",
+      "transactionType": "Purchase",
+      "description": "Payment of Management Fee and Technical Service",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 14,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Non-Resident",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "2",
+      "defaultTax": "DIV/NR/WHT (14%/NET)",
+      "code": 10,
+      "defaultTaxLocale": "ពន្ធកាត់ទុកលើអនិវាសនជន (សេវាគ្រប់គ្រង បច្ចេកទេស) ១៤%",
+      "transactionType": "Purchase",
+      "description": "Payment of Dividend",
+      "account": {
+        "number": 221030,
+        "name": "Withholding Tax Payable",
+        "nameLocale": "បំណុលពន្ធកាត់ទុក",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 49,
+          "name": "Withholding Tax Payable",
+          "nameLocale": "បំណុលពន្ធកាត់ទុក",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Withholding Tax Payable"
+      },
+      "taxBase": 100,
+      "rate": 14,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Non-Resident",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "9",
+      "defaultTax": "PLT (3%/INC)",
+      "defaultTaxLocale": "3% អាករបំភ្លឺសាធារណៈ",
+      "transactionType": "Sale",
+      "description": "Public Lighting Tax 3% levised on items",
+      "account": {
+        "number": 221990,
+        "name": "Other tax payable",
+        "nameLocale": "បំណុលពន្ធផ្សេងៗ",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 53,
+          "name": "Other tax payable",
+          "nameLocale": "បំណុលពន្ធផ្សេងៗ",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Other tax payable"
+      },
+      "taxBase": 20,
+      "rate": 3,
+      "baseAmount": "Inclusive",
+      "natureTaxPayer": "Both",
+      "formula": "(inAmt*taxBase)*(rate/(1+rate))"
+    },
+    {
+      "subId": "9",
+      "defaultTax": "PLT (3%/NET)",
+      "defaultTaxLocale": "3% អាករបំភ្លឺសាធារណៈ",
+      "transactionType": "Sale",
+      "description": "Public Lighting Tax 3% levised on items",
+      "account": {
+        "number": 221990,
+        "name": "Other tax payable",
+        "nameLocale": "បំណុលពន្ធផ្សេងៗ",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 53,
+          "name": "Other tax payable",
+          "nameLocale": "បំណុលពន្ធផ្សេងៗ",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Other tax payable"
+      },
+      "taxBase": 20,
+      "rate": 3,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Both",
+      "formula": "nAmt*taxBase*rate"
+    },
+    {
+      "subId": "8",
+      "defaultTax": "SP (10%/INC)",
+      "defaultTaxLocale": "10% អាករពិសេស",
+      "transactionType": "Sale",
+      "description": "Specific Tax on certain merchandise",
+      "account": {
+        "number": 221990,
+        "name": "Other tax payable",
+        "nameLocale": "បំណុលពន្ធផ្សេងៗ",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 53,
+          "name": "Other tax payable",
+          "nameLocale": "បំណុលពន្ធផ្សេងៗ",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Other tax payable"
+      },
+      "taxBase": 100,
+      "rate": 10,
+      "baseAmount": "Inclusive",
+      "natureTaxPayer": "Both",
+      "formula": "(inAmt*taxBase)*(rate/(1+rate))"
+    },
+    {
+      "subId": "8",
+      "defaultTax": "SP (10%/NET)",
+      "defaultTaxLocale": "10% អាករពិសេស",
+      "transactionType": "Sale",
+      "description": "Specific Tax on certain merchandise",
+      "account": {
+        "number": 221990,
+        "name": "Other tax payable",
+        "nameLocale": "បំណុលពន្ធផ្សេងៗ",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 53,
+          "name": "Other tax payable",
+          "nameLocale": "បំណុលពន្ធផ្សេងៗ",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Other tax payable"
+      },
+      "taxBase": 100,
+      "rate": 10,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Both",
+      "formula": "nAmt*taxBase*rate"
+    },
+    {
+      "subId": "7",
+      "defaultTax": "AT (3%/INC)",
+      "defaultTaxLocale": "3% អាករស្នាក់នៅ",
+      "transactionType": "Sale",
+      "description": "accountommodation Tax",
+      "account": {
+        "number": 221990,
+        "name": "Other tax payable",
+        "nameLocale": "បំណុលពន្ធផ្សេងៗ",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 53,
+          "name": "Other tax payable",
+          "nameLocale": "បំណុលពន្ធផ្សេងៗ",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Other tax payable"
+      },
+      "taxBase": 100,
+      "rate": 2,
+      "baseAmount": "Inclusive",
+      "natureTaxPayer": "Both",
+      "formula": "(inAmt*taxBase)*(rate/(1+rate))"
+    },
+    {
+      "subId": "7",
+      "defaultTax": "AT (3%/NET)",
+      "defaultTaxLocale": "3% អាករស្នាក់នៅ",
+      "transactionType": "Sale",
+      "description": "accountommodation Tax",
+      "account": {
+        "number": 221990,
+        "name": "Other tax payable",
+        "nameLocale": "បំណុលពន្ធផ្សេងៗ",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 53,
+          "name": "Other tax payable",
+          "nameLocale": "បំណុលពន្ធផ្សេងៗ",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Other tax payable"
+      },
+      "taxBase": 100,
+      "rate": 2,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Both",
+      "formula": "nAmt*taxBase*rate"
+    },
+    {
+      "subId": "3",
+      "defaultTax": "SALARY",
+      "defaultTaxLocale": "ពន្ធលើប្រាក់បៀវត្ស",
+      "transactionType": "Payroll",
+      "description": "Salary Tax",
+      "account": {
+        "number": 221020,
+        "name": "Salary Tax Payable",
+        "nameLocale": "បំណុលពន្ធប្រាក់ខែ",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 48,
+          "name": "Salary Tax Payable",
+          "nameLocale": "បំណុលពន្ធប្រាក់ខែ",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Salary Tax Payable"
+      },
+      "taxBase": null,
+      "rate": null,
+      "baseAmount": "",
+      "natureTaxPayer": "",
+      "formula": ""
+    },
+    {
+      "subId": "4",
+      "defaultTax": "FBT (INC)",
+      "defaultTaxLocale": "ពន្ធអត្ថប្រយោជន៍បន្ថែម",
+      "transactionType": "Payroll",
+      "description": "Fringe Benefit Tax",
+      "account": {
+        "number": 221040,
+        "name": "Fringe Benefit Tax payable",
+        "nameLocale": "បំណុលពន្ធអត្ថប្រយោជន៍បន្ថែម",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 50,
+          "name": "FBT payable",
+          "nameLocale": "បំណុលពន្ធអត្ថប្រយោជន៍បន្ថែម",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Fringe Benefit Tax payable"
+      },
+      "taxBase": 100,
+      "rate": 20,
+      "baseAmount": "Inclusive",
+      "natureTaxPayer": "Both",
+      "formula": "(inAmt*taxBase)*(rate/(1+rate)"
+    },
+    {
+      "subId": "4",
+      "defaultTax": "FBT (NET)",
+      "defaultTaxLocale": "ពន្ធអត្ថប្រយោជន៍បន្ថែម",
+      "transactionType": "Payroll",
+      "description": "Fringe Benefit Tax",
+      "account": {
+        "number": 221040,
+        "name": "Fringe Benefit Tax payable",
+        "nameLocale": "បំណុលពន្ធអត្ថប្រយោជន៍បន្ថែម",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 50,
+          "name": "FBT payable",
+          "nameLocale": "បំណុលពន្ធអត្ថប្រយោជន៍បន្ថែម",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Fringe Benefit Tax payable"
+      },
+      "taxBase": 100,
+      "rate": 20,
+      "baseAmount": "Net",
+      "natureTaxPayer": "Both",
+      "formula": "nAmt*taxBase*rate"
+    },
+    {
+      "subId": "5",
+      "defaultTax": "PROFIT TAX",
+      "defaultTaxLocale": "ពន្ធលើប្រាក់ចំណូល",
+      "transactionType": "Tax",
+      "description": "Annual profit Tax",
+      "account": {
+        "number": 221050,
+        "name": "Profit tax payable",
+        "nameLocale": "បំណុលពន្ធលើប្រាក់ចំណូល",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 50,
+          "name": "FBT payable",
+          "nameLocale": "បំណុលពន្ធអត្ថប្រយោជន៍បន្ថែម",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Fringe Benefit Tax payable"
+      },
+      "taxBase": 100,
+      "rate": 20,
+      "baseAmount": "",
+      "natureTaxPayer": "",
+      "formula": ""
+    },
+    {
+      "subId": "6",
+      "defaultTax": "1% PPT",
+      "defaultTaxLocale": "1% ប្រាក់រំដោះពន្ធលើប្រាក់ចំណេញ",
+      "transactionType": "Tax",
+      "description": "1% Prepaid Profit Tax",
+      "account": {
+        "number": 221060,
+        "name": "1% PPT Payable",
+        "nameLocale": "បំណុលពន្ធលើប្រាក់ចំណូលបង់មុន ១%",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 50,
+          "name": "1% PPT Payable",
+          "nameLocale": "បំណុលពន្ធលើប្រាក់ចំណូលបង់មុន ១%",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Balance of Fringe Benefit Tax payable"
+      },
+      "taxBase": 100,
+      "rate": 20,
+      "baseAmount": "",
+      "natureTaxPayer": "",
+      "formula": ""
+    },
+    {
+      "subId": "10",
+      "defaultTax": "No Tax",
+      "defaultTaxLocale": "គ្មានពន្ធ",
+      "transactionType": "Sale",
+      "description": "No Tax Applicable",
+      "account": {
+        "number": 221990,
+        "name": "Other tax payable",
+        "nameLocale": "បំណុលពន្ធផ្សេងៗ",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 53,
+          "name": "Other tax payable",
+          "nameLocale": "បំណុលពន្ធផ្សេងៗ",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Other tax payable"
+      },
+      "taxBase": 100,
+      "rate": 0,
+      "baseAmount": "Inclusive",
+      "natureTaxPayer": "Both",
+      "formula": ""
+    },
+    {
+      "subId": "10",
+      "defaultTax": "No Tax",
+      "defaultTaxLocale": "គ្មានពន្ធ",
+      "transactionType": "Purchase",
+      "description": "No Tax Applicable",
+      "account": {
+        "number": 221990,
+        "name": "Other tax payable",
+        "nameLocale": "បំណុលពន្ធផ្សេងៗ",
+        "accTypeCode": 21,
+        "accType": {
+          "name": "Current Tax Payable",
+          "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+          "nature": "cr",
+          "natureCode": 2,
+          "satementGroup": "CURRENT LIABILITIES",
+          "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+        },
+        "group": {
+          "id": 53,
+          "name": "Other tax payable",
+          "nameLocale": "បំណុលពន្ធផ្សេងៗ",
+          "typeName": "Current Tax Payable"
+        },
+        "natureBalance": "CREDIT",
+        "makeInactive": "",
+        "balance": "Accumulated",
+        "description": "Other tax payable"
+      },
+      "taxBase": 100,
+      "rate": 0,
+      "baseAmount": "Inclusive",
+      "natureTaxPayer": "Both",
+      "formula": ""
+    },
+    {
+      "subId": "11",
+      "code": 44,
+      "defaultTax": "REVERSED CHARGE - Claimable(Net)",
+      "defaultTaxLocale": "អាករជំនួស",
+      "transactionType": "Purchase",
+      "description": "",
+      "account": [
+        {
+          "number": 221010,
+          "name": "Sale Tax (VAT) Payable",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+          "accTypeCode": 21,
+          "accType": {
+            "name": "Current Tax Payable",
+            "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+            "nature": "cr",
+            "natureCode": 2,
+            "satementGroup": "CURRENT LIABILITIES",
+            "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+          },
+          "group": {
+            "id": 47,
+            "name": "Sale Tax (VAT) Payable",
+            "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+            "typeName": "Current Tax Payable"
+          },
+          "natureBalance": "CREDIT",
+          "makeInactive": "",
+          "balance": "Accumulated",
+          "description": "Balance of Short term customer deposit"
+        },
+        {
+          "number": 110020,
+          "name": "VAT Input",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+          "accTypeCode": 10,
+          "accType": {
+            "name": "Current Tax Assets",
+            "nameLocale": "ទ្រព្យសកម្មសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+            "nature": "dr",
+            "natureCode": 1,
+            "satementGroup": "CURRENT ASSET",
+            "description": "All current assets related to tax, including, prepaid profit tax, VAT input, and VAT credit carried forward."
+          },
+          "group": {
+            "id": 23,
+            "name": "VAT Input",
+            "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+            "typeName": "Current Tax Assets"
+          },
+          "natureBalance": "DEBIT",
+          "makeInactive": "",
+          "balance": "Accumulated",
+          "description": "Value added tax levied on the purchase"
+        }
+      ],
+      "taxBase": 100,
+      "rate": 10,
+      "baseAmount": "Net",
+      "isClaim": "True",
+      "natureTaxPayer": "Both",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "11",
+      "code": 45,
+      "defaultTax": "REVERSED CHARGE - Non-claimable(Net)",
+      "defaultTaxLocale": "អាករជំនួស",
+      "transactionType": "Purchase",
+      "description": "",
+      "account": [
+        {
+          "number": 221010,
+          "name": "Sale Tax (VAT) Payable",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+          "accTypeCode": 21,
+          "accType": {
+            "name": "Current Tax Payable",
+            "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+            "nature": "cr",
+            "natureCode": 2,
+            "satementGroup": "CURRENT LIABILITIES",
+            "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+          },
+          "group": {
+            "id": 47,
+            "name": "Sale Tax (VAT) Payable",
+            "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+            "typeName": "Current Tax Payable"
+          },
+          "natureBalance": "CREDIT",
+          "makeInactive": "",
+          "balance": "Accumulated",
+          "description": "Balance of Short term customer deposit"
+        },
+        {
+          "number": 110020,
+          "name": "VAT Input",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+          "accTypeCode": 10,
+          "accType": {
+            "name": "Current Tax Assets",
+            "nameLocale": "ទ្រព្យសកម្មសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+            "nature": "dr",
+            "natureCode": 1,
+            "satementGroup": "CURRENT ASSET",
+            "description": "All current assets related to tax, including, prepaid profit tax, VAT input, and VAT credit carried forward."
+          },
+          "group": {
+            "id": 23,
+            "name": "VAT Input",
+            "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+            "typeName": "Current Tax Assets"
+          },
+          "natureBalance": "DEBIT",
+          "makeInactive": "",
+          "balance": "Accumulated",
+          "description": "Value added tax levied on the purchase"
+        }
+      ],
+      "taxBase": 100,
+      "rate": 10,
+      "baseAmount": "Net",
+      "isClaim": "False",
+      "natureTaxPayer": "Both",
+      "formula": "nAmt*rate"
+    },
+    {
+      "subId": "11",
+      "code": 46,
+      "defaultTax": "REVERSED CHARGE - Claimable(INC)",
+      "defaultTaxLocale": "អាករជំនួស",
+      "transactionType": "Purchase",
+      "description": "",
+      "account": [
+        {
+          "number": 221010,
+          "name": "Sale Tax (VAT) Payable",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+          "accTypeCode": 21,
+          "accType": {
+            "name": "Current Tax Payable",
+            "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+            "nature": "cr",
+            "natureCode": 2,
+            "satementGroup": "CURRENT LIABILITIES",
+            "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+          },
+          "group": {
+            "id": 47,
+            "name": "Sale Tax (VAT) Payable",
+            "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+            "typeName": "Current Tax Payable"
+          },
+          "natureBalance": "CREDIT",
+          "makeInactive": "",
+          "balance": "Accumulated",
+          "description": "Balance of Short term customer deposit"
+        },
+        {
+          "number": 110020,
+          "name": "VAT Input",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+          "accTypeCode": 10,
+          "accType": {
+            "name": "Current Tax Assets",
+            "nameLocale": "ទ្រព្យសកម្មសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+            "nature": "dr",
+            "natureCode": 1,
+            "satementGroup": "CURRENT ASSET",
+            "description": "All current assets related to tax, including, prepaid profit tax, VAT input, and VAT credit carried forward."
+          },
+          "group": {
+            "id": 23,
+            "name": "VAT Input",
+            "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+            "typeName": "Current Tax Assets"
+          },
+          "natureBalance": "DEBIT",
+          "makeInactive": "",
+          "balance": "Accumulated",
+          "description": "Value added tax levied on the purchase"
+        }
+      ],
+      "taxBase": 100,
+      "rate": 10,
+      "baseAmount": "Inclusive",
+      "isClaim": "True",
+      "natureTaxPayer": "Both",
+      "formula": "inAmt*rate/(1+rate)"
+    },
+    {
+      "subId": "11",
+      "code": 47,
+      "defaultTax": "REVERSED CHARGE - Non-Claimable(INC)",
+      "defaultTaxLocale": "អាករជំនួស",
+      "transactionType": "Purchase",
+      "description": "",
+      "account": [
+        {
+          "number": 221010,
+          "name": "Sale Tax (VAT) Payable",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+          "accTypeCode": 21,
+          "accType": {
+            "name": "Current Tax Payable",
+            "nameLocale": "បំណុលសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+            "nature": "cr",
+            "natureCode": 2,
+            "satementGroup": "CURRENT LIABILITIES",
+            "description": "All current tax related payable, including VAT output, VAT payable, salary tax payable, withholding tax payable, Fringe Benefit Tax payable, and other tax payable."
+          },
+          "group": {
+            "id": 47,
+            "name": "Sale Tax (VAT) Payable",
+            "nameLocale": "អាករលើតម្លៃបន្ថែម (ការលក់)",
+            "typeName": "Current Tax Payable"
+          },
+          "natureBalance": "CREDIT",
+          "makeInactive": "",
+          "balance": "Accumulated",
+          "description": "Balance of Short term customer deposit"
+        },
+        {
+          "number": 110020,
+          "name": "VAT Input",
+          "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+          "accTypeCode": 10,
+          "accType": {
+            "name": "Current Tax Assets",
+            "nameLocale": "ទ្រព្យសកម្មសម្រាប់ការបង់ពន្ធរយៈពេលខ្លី",
+            "nature": "dr",
+            "natureCode": 1,
+            "satementGroup": "CURRENT ASSET",
+            "description": "All current assets related to tax, including, prepaid profit tax, VAT input, and VAT credit carried forward."
+          },
+          "group": {
+            "id": 23,
+            "name": "VAT Input",
+            "nameLocale": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
+            "typeName": "Current Tax Assets"
+          },
+          "natureBalance": "DEBIT",
+          "makeInactive": "",
+          "balance": "Accumulated",
+          "description": "Value added tax levied on the purchase"
+        }
+      ],
+      "taxBase": 100,
+      "rate": 10,
+      "baseAmount": "Inclusive",
+      "isClaim": "False",
+      "natureTaxPayer": "Both",
+      "formula": "inAmt*rate/(1+rate)"
+    }
+  ]
+  
