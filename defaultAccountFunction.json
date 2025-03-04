@@ -1591,7 +1591,7 @@
     "desc_kh": "ចំណូលមិនទាន់បានសំរេច",
     "desc_en": "Balance of unearned revenues for the services not yet offered or products not yet transferred of ownership",
     "parent_acc": {
-      "code": "2220310",
+      "code": "2220300",
       "name_en": "Unearned Revenue"
     }
   },
@@ -1619,7 +1619,7 @@
     "desc_kh": "ប្រាក់កក់របស់អតិថិជនរយៈពេលខ្លី",
     "desc_en": "Balance of Short term customer deposit",
     "parent_acc": {
-      "code": "2220320",
+      "code": "2220300",
       "name_en": "Short Term Customer Deposit"
     }
   },
@@ -2047,7 +2047,7 @@
     "desc_kh": "ចំនួនទឹកប្រាក់បំណុលការប្រាក់",
     "desc_en": "Balance of interest payable",
     "parent_acc": {
-      "code": "2270110",
+      "code": "2270100",
       "name_en": "Interest Payable"
     }
   },
@@ -2475,7 +2475,7 @@
     "desc_kh": "",
     "desc_en": "",
     "parent_acc": {
-      "code": "3370110",
+      "code": "3370100",
       "name_en": "Accumulated Profit"
     }
   },
@@ -3081,7 +3081,7 @@
     "desc_kh": "គណនីកាត់កងចំណូលសម្រាប់ការបង្វិលទំនិញ",
     "desc_en": "The contra revenue account for sale return & allowance",
     "parent_acc": {
-      "code": "4440180",
+      "code": "4440100",
       "name_en": "Sale Return & Allowance"
     }
   },
@@ -3109,7 +3109,7 @@
     "desc_kh": "គណនីកាត់កងចំណូលសម្រាប់ការលក់បញ្ចុះតម្លៃនិងប្រម៉ូសិន",
     "desc_en": "The contra revenue account for trade discount and promotion.",
     "parent_acc": {
-      "code": "4440190",
+      "code": "4440100",
       "name_en": "Trade Discount and Promotion"
     }
   },
@@ -3162,7 +3162,7 @@
     "desc_kh": "ថ្លៃដើមទំនិញ",
     "desc_en": "Cost of Goods Sold",
     "parent_acc": {
-      "code": "5450110",
+      "code": "5450100",
       "name_en": "Cost of Goods Sold"
     }
   },
@@ -3190,7 +3190,7 @@
     "desc_kh": "ថ្លៃដើមសេវាកម្ម",
     "desc_en": "Cost of Service Rendered",
     "parent_acc": {
-      "code": "5450120",
+      "code": "5450100",
       "name_en": "Cost of Service Rendered"
     }
   },
@@ -3218,7 +3218,7 @@
     "desc_kh": "ការបញ្ចុះតម្លៃលើការទិញពាណិជ្ជកម្មដែលផ្តល់ដោយអ្នកផ្គត់ផ្គង់",
     "desc_en": "Trade Purchase discounts provided by suppliers",
     "parent_acc": {
-      "code": "5450190",
+      "code": "5450100",
       "name_en": "Purchase Discount"
     }
   },
@@ -3296,7 +3296,7 @@
     "desc_kh": "ការចំណាយទាក់ទងនឹងថ្លៃសេវាធនាគារ",
     "desc_en": "Expenses related to Bank Service Charge",
     "parent_acc": {
-      "code": "5470110",
+      "code": "5470100",
       "name_en": "Bank Service Charge"
     }
   },
@@ -3324,7 +3324,7 @@
     "desc_kh": "ការចំណាយទាក់ទងនឹងថ្លៃទំនាក់ទំនង (អ៊ិនធឺណិត ទូរស័ព្ទ ទូរស័ព្ទ និងទំនាក់ទំនងផ្សេងទៀតដែលទាក់ទងនឹង)",
     "desc_en": "Expenses related to Communication Cost (internet, telephone, mobile phone and other communications related)",
     "parent_acc": {
-      "code": "5470120",
+      "code": "5470100",
       "name_en": "Communication Cost"
     }
   },
@@ -3352,7 +3352,7 @@
     "desc_kh": "ការចំណាយទាក់ទងនឹងសមាជិកភាព ការបង់ថ្លៃ និងការជាវ",
     "desc_en": "Expenses related to Membership, Dues and Subscriptions",
     "parent_acc": {
-      "code": "5470130",
+      "code": "5470100",
       "name_en": "Membership, Dues and Subscriptions"
     }
   },
@@ -3380,7 +3380,7 @@
     "desc_kh": "ការចំណាយទាក់ទងនឹងការចំណាយលើការធានារ៉ាប់រង",
     "desc_en": "Expenses related to Insurance Expenses",
     "parent_acc": {
-      "code": "5470140",
+      "code": "5470100",
       "name_en": "Insurance Expenses"
     }
   },
@@ -3408,7 +3408,7 @@
     "desc_kh": "ការចំណាយទាក់ទងនឹងអាហារ និងការកម្សាន្ត",
     "desc_en": "Expenses related to Meals and Entertainment",
     "parent_acc": {
-      "code": "5470150",
+      "code": "5470100",
       "name_en": "Meals and Entertainment"
     }
   },
@@ -3436,7 +3436,7 @@
     "desc_kh": "ការចំណាយទាក់ទងនឹងសម្ភារៈការិយាល័យ",
     "desc_en": "Expenses related to Office Supplies",
     "parent_acc": {
-      "code": "5470160",
+      "code": "5470100",
       "name_en": "Office Supplies"
     }
   },
@@ -3464,7 +3464,7 @@
     "desc_kh": "ការចំណាយទាក់ទងនឹងប្រេង ឥន្ធនៈ សាំង",
     "desc_en": "Expenses related to Oil, Fuel, Gasoline",
     "parent_acc": {
-      "code": "5470170",
+      "code": "5470100",
       "name_en": "Oil, Fuel, Gasoline"
     }
   }
