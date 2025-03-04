@@ -426,7 +426,7 @@
     "desc_kh": "ប្រាក់រំដោះពន្ធលើប្រាក់ចំណេញ",
     "desc_en": "Prepaid Profit tax levied on turnover (eg. 1%)",
     "parent_acc": {
-      "code": "1040110",
+      "code": "1040100",
       "name_en": "Prepaid Profit Tax"
     }
   },
@@ -454,7 +454,7 @@
     "desc_kh": "អាករលើតម្លៃបន្ថែម (ការទិញ)",
     "desc_en": "Value added tax levied on the purchase",
     "parent_acc": {
-      "code": "1040120",
+      "code": "1040100",
       "name_en": "VAT Input"
     }
   },
@@ -482,7 +482,7 @@
     "desc_kh": "ឥណទានយោងអាករលើតម្លៃបន្ថែម",
     "desc_en": "Accrued tax of net value added tax after offsetting purchase tax price and sale tax prices",
     "parent_acc": {
-      "code": "1040130",
+      "code": "1040100",
       "name_en": "VAT Credit Carried forward"
     }
   },
@@ -585,7 +585,7 @@
     "desc_kh": "",
     "desc_en": "",
     "parent_acc": {
-      "code": "1070110",
+      "code": "1070100",
       "name_en": "Cash Advance"
     }
   },
@@ -613,7 +613,7 @@
     "desc_kh": "",
     "desc_en": "",
     "parent_acc": {
-      "code": "1070120",
+      "code": "1070100",
       "name_en": "Supplier Deposits"
     }
   },
@@ -2503,7 +2503,7 @@
     "desc_kh": "",
     "desc_en": "",
     "parent_acc": {
-      "code": "3370120",
+      "code": "3370100",
       "name_en": "Opening Balance Equity"
     }
   },
