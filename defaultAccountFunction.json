@@ -4310,5 +4310,226 @@
     "desc_kh": "ចំនួនលម្អៀងពីការប្តូរប្រាក់លើការបកប្រែ",
     "desc_en": "The amount of other comprehensive income, net of tax, related to exchange differences when financial statements of foreign operations are translated.",
     "parent_acc": ""
+  },
+  {
+    "is_required": "TRUE",
+    "banhji_code": "944000",
+    "code": "9600000",
+    "name_en": "Clearing/ Suspense Accounts",
+    "name_kh": "គណនិបណ្តោះអាសន្ន",
+    "acc_type": {
+      "code"        : "60"                         ,
+      "concept_name": "ClearingSuspenseAccounts"   ,
+      "name_kh"     : "គណនិបណ្តោះអាសន្ន"           ,
+      "name_en"     : "Clearing/ Suspense Accounts",
+      "group"       : "Clearing/ Suspense Accounts",
+      "bal_type"    : "dr"                         ,
+      "period_type" : "instant"                    ,
+      "nature_group": "Clearing/ Suspense Accounts",
+      "note_line"   : "0"                          ,
+      "desc_en"     : ""
+    },
+    "bal_type": "dr",
+    "concept_name": "ClearingSuspenseAccounts",
+    "period_type": "instant",
+    "desc_kh": "គណនិបណ្តោះអាសន្ន",
+    "desc_en": "Clearing/ Suspense Accounts",
+    "parent_acc": ""
+  },
+  {
+    "is_required": "TRUE",
+    "banhji_code": "944010",
+    "code": "9600100",
+    "name_en": "Payable Clearing",
+    "name_kh": "គណនីបំណុលបណ្តោះអាសន្ន",
+    "acc_type": {
+      "code"        : "60"                         ,
+      "concept_name": "ClearingSuspenseAccounts"   ,
+      "name_kh"     : "គណនិបណ្តោះអាសន្ន"           ,
+      "name_en"     : "Clearing/ Suspense Accounts",
+      "group"       : "Clearing/ Suspense Accounts",
+      "bal_type"    : "dr"                         ,
+      "period_type" : "instant"                    ,
+      "nature_group": "Clearing/ Suspense Accounts",
+      "note_line"   : "0"                          ,
+      "desc_en"     : ""
+    },
+    "bal_type": "dr",
+    "concept_name": "ClearingSuspenseAccounts",
+    "period_type": "instant",
+    "desc_kh": "គណនីបំណុលបណ្តោះអាសន្ន",
+    "desc_en": "Payable Clearing",
+    "parent_acc": {
+      "code"   : "9600600"                           ,
+      "name_en": "Other Clearing/ Suspenses Accounts"
+    }
+  },
+  {
+    "is_required": "TRUE",
+    "banhji_code": "944020",
+    "code": "9600200",
+    "name_en": "Receivable Clearing",
+    "name_kh": "គណនីត្រូវទទួលបណ្តោះអាសន្ន",
+    "acc_type": {
+      "code"        : "60"                         ,
+      "concept_name": "ClearingSuspenseAccounts"   ,
+      "name_kh"     : "គណនិបណ្តោះអាសន្ន"           ,
+      "name_en"     : "Clearing/ Suspense Accounts",
+      "group"       : "Clearing/ Suspense Accounts",
+      "bal_type"    : "dr"                         ,
+      "period_type" : "instant"                    ,
+      "nature_group": "Clearing/ Suspense Accounts",
+      "note_line"   : "0"                          ,
+      "desc_en"     : ""
+    },
+    "bal_type": "dr",
+    "concept_name": "ClearingSuspenseAccounts",
+    "period_type": "instant",
+    "desc_kh": "គណនីត្រូវទទួលបណ្តោះអាសន្ន",
+    "desc_en": "Receivable Clearing",
+    "parent_acc": {
+      "code"   : "9600600"                           ,
+      "name_en": "Other Clearing/ Suspenses Accounts"
+    }
+  },
+  {
+    "is_required": "TRUE",
+    "banhji_code": "944030",
+    "code": "9600300",
+    "name_en": "Transfer/Payment Suspense Accounts",
+    "name_kh": "គណនីផ្ទេរ/ទូរទាត់បណ្តោះអាសន្ន",
+    "acc_type": {
+      "code"        : "60"                         ,
+      "concept_name": "ClearingSuspenseAccounts"   ,
+      "name_kh"     : "គណនិបណ្តោះអាសន្ន"           ,
+      "name_en"     : "Clearing/ Suspense Accounts",
+      "group"       : "Clearing/ Suspense Accounts",
+      "bal_type"    : "dr"                         ,
+      "period_type" : "instant"                    ,
+      "nature_group": "Clearing/ Suspense Accounts",
+      "note_line"   : "0"                          ,
+      "desc_en"     : ""
+    },
+    "bal_type": "dr",
+    "concept_name": "ClearingSuspenseAccounts",
+    "period_type": "instant",
+    "desc_kh": "គណនីផ្ទេរ/ទូរទាត់បណ្តោះអាសន្ន",
+    "desc_en": "Transfer/Payment Suspense Accounts",
+    "parent_acc": {
+      "code"   : "9600600"                           ,
+      "name_en": "Other Clearing/ Suspenses Accounts"
+    }
+  },
+  {
+    "is_required": "TRUE",
+    "banhji_code": "944040",
+    "code": "9600400",
+    "name_en": "Credit/Debit Note Clearing",
+    "name_kh": "គណនីឥណទាន/ឥណពន្ធបណ្តោះអាសន្ន",
+    "acc_type": {
+      "code"        : "60"                         ,
+      "concept_name": "ClearingSuspenseAccounts"   ,
+      "name_kh"     : "គណនិបណ្តោះអាសន្ន"           ,
+      "name_en"     : "Clearing/ Suspense Accounts",
+      "group"       : "Clearing/ Suspense Accounts",
+      "bal_type"    : "dr"                         ,
+      "period_type" : "instant"                    ,
+      "nature_group": "Clearing/ Suspense Accounts",
+      "note_line"   : "0"                          ,
+      "desc_en"     : ""
+    },
+    "bal_type": "dr",
+    "concept_name": "ClearingSuspenseAccounts",
+    "period_type": "instant",
+    "desc_kh": "គណនីឥណទាន/ឥណពន្ធបណ្តោះអាសន្ន",
+    "desc_en": "Credit/Debit Note Clearing",
+    "parent_acc": {
+      "code"   : "9600600"                           ,
+      "name_en": "Other Clearing/ Suspenses Accounts"
+    }
+  },
+  {
+    "is_required": "TRUE",
+    "banhji_code": "944050",
+    "code": "9600500",
+    "name_en": "Advance/Settlement Clearing",
+    "name_kh": "គណនីបុរេប្រទាន/ទូទាត់បុរេប្រទានបណ្តោះអាសន្ន",
+    "acc_type": {
+      "code"        : "60"                         ,
+      "concept_name": "ClearingSuspenseAccounts"   ,
+      "name_kh"     : "គណនិបណ្តោះអាសន្ន"           ,
+      "name_en"     : "Clearing/ Suspense Accounts",
+      "group"       : "Clearing/ Suspense Accounts",
+      "bal_type"    : "dr"                         ,
+      "period_type" : "instant"                    ,
+      "nature_group": "Clearing/ Suspense Accounts",
+      "note_line"   : "0"                          ,
+      "desc_en"     : ""
+    },
+    "bal_type": "dr",
+    "concept_name": "ClearingSuspenseAccounts",
+    "period_type": "instant",
+    "desc_kh": "គណនីបុរេប្រទាន/ទូទាត់បុរេប្រទានបណ្តោះអាសន្ន",
+    "desc_en": "Advance/Settlement Clearing",
+    "parent_acc": {
+      "code"   : "9600600"                           ,
+      "name_en": "Other Clearing/ Suspenses Accounts"
+    }
+  },
+  {
+    "is_required": "TRUE",
+    "banhji_code": "944060",
+    "code": "9600600",
+    "name_en": "Other Clearing/ Suspenses Accounts",
+    "name_kh": "គណនីបណ្តោះអាសន្នផ្សេងទៀត",
+    "acc_type": {
+      "code"        : "60"                         ,
+      "concept_name": "ClearingSuspenseAccounts"   ,
+      "name_kh"     : "គណនិបណ្តោះអាសន្ន"           ,
+      "name_en"     : "Clearing/ Suspense Accounts",
+      "group"       : "Clearing/ Suspense Accounts",
+      "bal_type"    : "dr"                         ,
+      "period_type" : "instant"                    ,
+      "nature_group": "Clearing/ Suspense Accounts",
+      "note_line"   : "0"                          ,
+      "desc_en"     : ""
+    },
+    "bal_type": "dr",
+    "concept_name": "ClearingSuspenseAccounts",
+    "period_type": "instant",
+    "desc_kh": "គណនីបណ្តោះអាសន្នផ្សេងទៀត",
+    "desc_en": "Other Clearing/ Suspenses Accounts",
+    "parent_acc": {
+      "code"   : "9600600"                           ,
+      "name_en": "Other Clearing/ Suspenses Accounts"
+    }
+  },
+  {
+    "is_required": "TRUE",
+    "banhji_code": "944070",
+    "code": "9600700",
+    "name_en": "Inventory Suspense Accounts",
+    "name_kh": "គណនីសន្និធិបណ្តោះអាសន្ន",
+    "acc_type": {
+      "code"        : "60"                         ,
+      "concept_name": "ClearingSuspenseAccounts"   ,
+      "name_kh"     : "គណនិបណ្តោះអាសន្ន"           ,
+      "name_en"     : "Clearing/ Suspense Accounts",
+      "group"       : "Clearing/ Suspense Accounts",
+      "bal_type"    : "dr"                         ,
+      "period_type" : "instant"                    ,
+      "nature_group": "Clearing/ Suspense Accounts",
+      "note_line"   : "0"                          ,
+      "desc_en"     : ""
+    },
+    "bal_type": "dr",
+    "concept_name": "ClearingSuspenseAccounts",
+    "period_type": "instant",
+    "desc_kh": "គណនីសន្និធិបណ្តោះអាសន្ន",
+    "desc_en": "Inventory Suspense Accounts",
+    "parent_acc": {
+      "code"   : "9600600"                           ,
+      "name_en": "Other Clearing/ Suspenses Accounts"
+    }
   }
 ]
