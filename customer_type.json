@@ -8,9 +8,9 @@
     "nature": "Individual-Local",
     "payment_term": "N30",
     "payment_option": "Cash",
-    "ar_account": "1020100",
-    "sale_deposit_account": "2220300",
-    "unearn_account": "2220300",
+    "ar_account": "107000",
+    "sale_deposit_account": "220020",
+    "unearn_account": "220010",
     "vat_tax": "VAT (10%/NET)"
   },
   {
@@ -22,9 +22,9 @@
     "nature": "Individual-Foreign",
     "payment_term": "N30",
     "payment_option": "Cash",
-    "ar_account": "1020100",
-    "sale_deposit_account": "2220300",
-    "unearn_account": "2220300",
+    "ar_account": "107000",
+    "sale_deposit_account": "220020",
+    "unearn_account": "220010",
     "vat_tax": "VAT (10%/NET)"
   },
   {
@@ -36,9 +36,9 @@
     "nature": "Non-Taxable Entity",
     "payment_term": "N30",
     "payment_option": "Cash",
-    "ar_account": "1020100",
-    "sale_deposit_account": "2220300",
-    "unearn_account": "2220300",
+    "ar_account": "107000",
+    "sale_deposit_account": "220020",
+    "unearn_account": "220010",
     "vat_tax": "VAT Exempt"
   },
   {
@@ -50,9 +50,9 @@
     "nature": "Taxable Entity",
     "payment_term": "N30",
     "payment_option": "Cash",
-    "ar_account": "1020100",
-    "sale_deposit_account": "2220300",
-    "unearn_account": "2220300",
+    "ar_account": "107000",
+    "sale_deposit_account": "220020",
+    "unearn_account": "220010",
     "vat_tax": "VAT (10%/NET)"
   },
   {
@@ -64,9 +64,9 @@
     "nature": "Foreign Entity",
     "payment_term": "N30",
     "payment_option": "Cash",
-    "ar_account": "1020100",
-    "sale_deposit_account": "2220300",
-    "unearn_account": "2220300",
+    "ar_account": "107000",
+    "sale_deposit_account": "220020",
+    "unearn_account": "220010",
     "vat_tax": "VAT (10%/NET)"
   }
 ]
