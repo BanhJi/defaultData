@@ -622,7 +622,7 @@
   },
   {
     "is_required": true,
-    "banhji_code": "301",
+    "banhji_code": "330000",
     "grp_code": "3360100",
     "code": "301",
     "name_en": "Non-withdrawable Shares",
@@ -649,7 +649,7 @@
   },
   {
     "is_required": true,
-    "banhji_code": "303",
+    "banhji_code": "330200",
     "grp_code": "3360100",
     "code": "303",
     "name_en": "Withdrawable Shares",
