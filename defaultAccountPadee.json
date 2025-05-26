@@ -136,7 +136,7 @@
   },
   {
     "is_required": true,
-    "banhji_code": "105",
+    "banhji_code": "107010",
     "grp_code": "1150100",
     "code": "105",
     "name_en": "Loans to Members",
@@ -919,7 +919,7 @@
   },
   {
     "is_required": true,
-    "banhji_code": "401",
+    "banhji_code": "432100",
     "grp_code": "4430600",
     "code": "401",
     "name_en": "Interest income on loans to members",
