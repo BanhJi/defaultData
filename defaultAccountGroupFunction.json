@@ -2628,7 +2628,7 @@
       "group"       : "Cost Of Revenues",
       "bal_type"    : "dr"              ,
       "period_type" : "duration"        ,
-      "nature_group": "Cost Of Revenues",
+      "nature_group": "Expenses"        ,
       "note_line"   : "14"              ,
       "desc_en"     : ""
     },

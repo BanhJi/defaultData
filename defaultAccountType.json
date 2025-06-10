@@ -1,7 +1,6 @@
 [
   {
     "code": "01",
-    "banhji_code": "01",
     "concept_name": "CashAndCashEquivalents",
     "name_kh": "សាច់ប្រាក់ និងសាច់ប្រាក់សមមូល",
     "name_en": "Cash and cash equivalents",
@@ -15,7 +14,6 @@
   },
   {
     "code"        : "02"                                                 ,
-    "banhji_code" : "07"                                                 ,
     "concept_name": "TradeAndOtherCurrentReceivables"                    ,
     "name_kh"     : "គណនីពាណិជ្ជកម្ម និងគណនីត្រូវទទួលផ្សេងទៀត"           ,
     "name_en"     : "Trade and other current receivables"                ,
@@ -29,7 +27,6 @@
   },
   {
     "code"        : "03"                                 ,
-    "banhji_code" : "08"                                 ,
     "concept_name": "Inventories"                        ,
     "name_kh"     : "សន្និធិរយៈពេលខ្លី"                  ,
     "name_en"     : "Current inventories"                ,
@@ -43,7 +40,6 @@
   },
   {
     "code"        : "04"                                        ,
-    "banhji_code" : "10"                                        ,
     "concept_name": "CurrentTaxAssetsCurrent"                   ,
     "name_kh"     : "ទ្រព្យសកម្មពន្ធរយៈពេលខ្លី"                 ,
     "name_en"     : "Current tax assets, current"               ,
@@ -57,7 +53,6 @@
   },
   {
     "code": "05",
-    "banhji_code": "14",
     "concept_name": "CurrentBiologicalAssetsAtCost",
     "name_kh": "ទ្រព្យសកម្មជីវសាស្រ្តរយៈពេលខ្លី",
     "name_en": "Current biological assets",
@@ -71,7 +66,6 @@
   },
   {
     "code": "06",
-    "banhji_code": "0",
     "concept_name": "OtherCurrentFinancialAssets",
     "name_kh": "ទ្រព្យសកម្មហិរញ្ញវត្ថុរយៈពេលខ្លីផ្សេងទៀត",
     "name_en": "Other current financial assets",
@@ -85,7 +79,6 @@
   },
   {
     "code": "07",
-    "banhji_code": "0",
     "concept_name": "OtherCurrentNonfinancialAssets",
     "name_kh": "ទ្រព្យសកម្មមិនមែនហិរញ្ញវត្ថុរយៈពេលខ្លីផ្សេងទៀត",
     "name_en": "Other current non-financial assets",
@@ -99,7 +92,6 @@
   },
   {
     "code": "08",
-    "banhji_code": "0",
     "concept_name": "CurrentNoncashAssetsPledgedAsCollateralForWhichTransfereeHasRightByContractOrCustomToSellOrRepledgeCollateral",
     "name_kh": "ទ្រព្យសកម្មមិនមែនសាច់ប្រាក់រយៈពេលខ្លីជាទ្រព្យធានា",
     "name_en": "Current non-cash assets pledged as collateral ",
@@ -113,7 +105,6 @@
   },
   {
     "code": "09",
-    "banhji_code": "11",
     "concept_name": "PropertyPlantAndEquipment",
     "name_kh": "ទ្រព្យ រោងចក្រ និងបរិក្ខារ",
     "name_en": "Property, plant and equipment",
@@ -127,7 +118,6 @@
   },
   {
     "code": "10",
-    "banhji_code": "15",
     "concept_name": "InvestmentPropertyWhoseFairValueCannotBeMeasuredReliablyWithoutUndueCostOrEffortOnOngoingBasis",
     "name_kh": "ទ្រព្យវិនិយោគ",
     "name_en": "Investment property ",
@@ -141,7 +131,6 @@
   },
   {
     "code": "11",
-    "banhji_code": "12",
     "concept_name": "IntangibleAssetsOtherThanGoodwill",
     "name_kh": "ទ្រព្យសកម្មអរូបី",
     "name_en": "Intangible assets",
@@ -155,7 +144,6 @@
   },
   {
     "code": "12",
-    "banhji_code": "16",
     "concept_name": "InvestmentsInAssociates",
     "name_kh": "ការវិនិយោគនៅក្នុងក្រុមហ៊ុនញាតិសម្ព័ន្ធ",
     "name_en": "Investments in associates",
@@ -169,7 +157,6 @@
   },
   {
     "code": "13",
-    "banhji_code": "16",
     "concept_name": "InvestmentsInJointVentures",
     "name_kh": "ការវិនិយោគនៅក្នុងក្រុមហ៊ុនរួមទុន",
     "name_en": "Investments in joint ventures",
@@ -183,7 +170,6 @@
   },
   {
     "code": "14",
-    "banhji_code": "14",
     "concept_name": "NoncurrentBiologicalAssetsAtCost",
     "name_kh": "ទ្រព្យសកម្មជីវសាស្រ្តរយៈពេលវែង",
     "name_en": "Non-current biological assets",
@@ -197,7 +183,6 @@
   },
   {
     "code": "15",
-    "banhji_code": "07",
     "concept_name": "NoncurrentReceivables",
     "name_kh": "គណនីពាណិជ្ជកម្ម និងគណនីត្រូវទទួលរយៈពេលវែងផ្សេងទៀត",
     "name_en": "Trade and other non-current receivables",
@@ -211,7 +196,6 @@
   },
   {
     "code"        : "16"                                     ,
-    "banhji_code" : "08"                                     ,
     "concept_name": "NoncurrentInventories"                  ,
     "name_kh"     : "សន្និធិរយៈពេលវែង"                       ,
     "name_en"     : "Non-current inventories"                ,
@@ -225,7 +209,6 @@
   },
   {
     "code": "17",
-    "banhji_code": "0",
     "concept_name": "DeferredTaxAssets",
     "name_kh": "ទ្រព្យសកម្មពន្ធពន្យារ",
     "name_en": "Deferred tax assets",
@@ -239,7 +222,6 @@
   },
   {
     "code"        : "18"                                            ,
-    "banhji_code" : "10"                                            ,
     "concept_name": "CurrentTaxAssetsNoncurrent"                    ,
     "name_kh"     : "ទ្រព្យសកម្មពន្ធរយៈពេលវែង"                      ,
     "name_en"     : "Current tax assets, non-current"               ,
@@ -253,7 +235,6 @@
   },
   {
     "code": "19",
-    "banhji_code": "0",
     "concept_name": "OtherNoncurrentFinancialAssets",
     "name_kh": "ទ្រព្យសកម្មហិរញ្ញវត្ថុរយៈពេលវែងផ្សេងទៀត",
     "name_en": "Other non-current financial assets",
@@ -267,7 +248,6 @@
   },
   {
     "code": "20",
-    "banhji_code": "0",
     "concept_name": "OtherNoncurrentNonfinancialAssets",
     "name_kh": "ទ្រព្យសកម្មមិនមែនហិរញ្ញវត្ថុរយៈពេលវែងផ្សេងទៀត",
     "name_en": "Other non-current non-financial assets",
@@ -281,7 +261,6 @@
   },
   {
     "code": "21",
-    "banhji_code": "0",
     "concept_name": "NoncurrentNoncashAssetsPledgedAsCollateralForWhichTransfereeHasRightByContractOrCustomToSellOrRepledgeCollateral",
     "name_kh": "ទ្រព្យសកម្មមិនមែនសាច់ប្រាក់រយៈពេលវែងជាទ្រព្យធានា",
     "name_en": "Non-current non-cash assets pledged as collateral",
@@ -295,7 +274,6 @@
   },
   {
     "code"        : "22"                                                    ,
-    "banhji_code" : "18"                                                    ,
     "concept_name": "TradeAndOtherCurrentPayables"                          ,
     "name_kh"     : "គណនីពាណិជ្ជកម្ម និងគណនីត្រូវសងផ្សេងទៀត"                ,
     "name_en"     : "Trade and other current payables"                      ,
@@ -309,7 +287,6 @@
   },
   {
     "code"        : "23"                                                   ,
-    "banhji_code" : "19"                                                   ,
     "concept_name": "CurrentProvisions"                                    ,
     "name_kh"     : "សំវិធានធនរយៈពេលខ្លី"                                  ,
     "name_en"     : "Current provisions"                                   ,
@@ -323,7 +300,6 @@
   },
   {
     "code"        : "24"                                             ,
-    "banhji_code" : "21"                                             ,
     "concept_name": "CurrentTaxLiabilitiesCurrent"                   ,
     "name_kh"     : "បំណុលពន្ធរយៈពេលខ្លី"                            ,
     "name_en"     : "Current tax liabilities, current"               ,
@@ -337,7 +313,6 @@
   },
   {
     "code"        : "25"                                 ,
-    "banhji_code" : "23"                                 ,
     "concept_name": "ShorttermBorrowings"                ,
     "name_kh"     : "ប្រាក់កម្ចីរយៈពេលខ្លី"              ,
     "name_en"     : "Current borrowings"                 ,
@@ -351,7 +326,6 @@
   },
   {
     "code"        : "26"                                                 ,
-    "banhji_code" : "0"                                                  ,
     "concept_name": "CurrentPortionOfLongtermBorrowings"                 ,
     "name_kh"     : "ចំណែករយៈពេលខ្លីនៃប្រាក់កម្ចីរយៈពេលវែង"              ,
     "name_en"     : "Current portion of long term borrowings"            ,
@@ -365,7 +339,6 @@
   },
   {
     "code": "27",
-    "banhji_code": "0",
     "concept_name": "OtherCurrentFinancialLiabilities",
     "name_kh": "បំណុលហិរញ្ញវត្ថុរយៈពេលខ្លីផ្សេងទៀត",
     "name_en": "Other current financial liabilities",
@@ -379,7 +352,6 @@
   },
   {
     "code": "28",
-    "banhji_code": "0",
     "concept_name": "OtherCurrentNonfinancialLiabilities",
     "name_kh": "បំណុលមិនមែនហិរញ្ញវត្ថុរយៈពេលខ្លីផ្សេងទៀត",
     "name_en": "Other current non-financial liabilities",
@@ -393,7 +365,6 @@
   },
   {
     "code"        : "29"                                   ,
-    "banhji_code" : "19"                                   ,
     "concept_name": "NoncurrentProvisions"                 ,
     "name_kh"     : "សំវិធានធនរយៈពេលវែង"                   ,
     "name_en"     : "Non-current provisions"               ,
@@ -407,7 +378,6 @@
   },
   {
     "code": "30",
-    "banhji_code": "18",
     "concept_name": "NoncurrentPayables",
     "name_kh": "គណនីពាណិជ្ជកម្ម និងគណនីត្រូវសងផ្សេងទៀតរយៈពេលវែង",
     "name_en": "Trade and other non-current payables",
@@ -421,7 +391,6 @@
   },
   {
     "code": "31",
-    "banhji_code": "0",
     "concept_name": "DeferredTaxLiabilities",
     "name_kh": "បំណុលពន្ធពន្យារ",
     "name_en": "Deferred tax liabilities",
@@ -435,7 +404,6 @@
   },
   {
     "code"        : "32"                                                 ,
-    "banhji_code" : "21"                                                 ,
     "concept_name": "CurrentTaxLiabilitiesNoncurrent"                    ,
     "name_kh"     : "បំណុលពន្ធរយៈពេលវែង"                                 ,
     "name_en"     : "Current tax liabilities, non-current"               ,
@@ -449,7 +417,6 @@
   },
   {
     "code": "33",
-    "banhji_code": "0",
     "concept_name": "OtherNoncurrentFinancialLiabilities",
     "name_kh": "បំណុលហិរញ្ញវត្ថុរយៈពេលវែងផ្សេងទៀត",
     "name_en": "Other non-current financial liabilities",
@@ -463,7 +430,6 @@
   },
   {
     "code"        : "34"                                                 ,
-    "banhji_code" : "27"                                                 ,
     "concept_name": "LongtermBorrowings"                                 ,
     "name_kh"     : "ប្រាក់កម្ចីរយៈពេលវែង"                               ,
     "name_en"     : "Long Term borrowings"                               ,
@@ -477,7 +443,6 @@
   },
   {
     "code": "35",
-    "banhji_code": "0",
     "concept_name": "OtherNoncurrentNonfinancialLiabilities",
     "name_kh": "បំណុលមិនមែនហិរញ្ញវត្ថុរយៈពេលវែងផ្សេងទៀត",
     "name_en": "Other non-current non-financial liabilities",
@@ -491,7 +456,6 @@
   },
   {
     "code"        : "36"                                       ,
-    "banhji_code" : "30"                                       ,
     "concept_name": "IssuedCapital"                            ,
     "name_kh"     : "មូលធនភាគហ៊ុន"                             ,
     "name_en"     : "Issued capital"                           ,
@@ -505,7 +469,6 @@
   },
   {
     "code": "37",
-    "banhji_code": "31",
     "concept_name": "RetainedEarnings",
     "name_kh": "ចំណេញរក្សាទុក",
     "name_en": "Retained earnings",
@@ -519,7 +482,6 @@
   },
   {
     "code": "38",
-    "banhji_code": "30",
     "concept_name": "SharePremium",
     "name_kh": "បុព្វលាភភាគហ៊ុន",
     "name_en": "Share premium",
@@ -533,7 +495,6 @@
   },
   {
     "code": "39",
-    "banhji_code": "30",
     "concept_name": "TreasuryShares",
     "name_kh": "ភាគហ៊ុនរតនៈ",
     "name_en": "Treasury shares",
@@ -547,7 +508,6 @@
   },
   {
     "code": "40",
-    "banhji_code": "30",
     "concept_name": "OtherEquityInterest",
     "name_kh": "ភាគកម្មមូលធនផ្សេងទៀត",
     "name_en": "Other equity interest",
@@ -561,7 +521,6 @@
   },
   {
     "code": "41",
-    "banhji_code": "30",
     "concept_name": "OtherReserves",
     "name_kh": "ទុនបម្រុងផ្សេងទៀត",
     "name_en": "Other reserves",
@@ -575,7 +534,6 @@
   },
   {
     "code": "42",
-    "banhji_code": "30",
     "concept_name": "NoncontrollingInterests",
     "name_kh": "ភាគកម្មមិនគ្រប់គ្រង",
     "name_en": "Non-controlling interests",
@@ -589,9 +547,8 @@
   },
   {
     "code": "43",
-    "banhji_code": "32",
     "concept_name": "Revenue",
-    "name_kh": "ចំំណូល",
+    "name_kh": "ចំណូល",
     "name_en": "Revenue",
     "group": "Revenues",
     "bal_type": "cr",
@@ -603,9 +560,8 @@
   },
   {
     "code": "44",
-    "banhji_code": "40",
     "concept_name": "OtherIncome",
-    "name_kh": "ចំំណូលផ្សេងទៀត",
+    "name_kh": "ចំណូលផ្សេងទៀត",
     "name_en": "Other income",
     "group": "Other Revenues",
     "bal_type": "cr",
@@ -617,21 +573,19 @@
   },
   {
     "code": "45",
-    "banhji_code": "33",
     "concept_name": "CostOfSales",
     "name_kh": "ថ្លៃដើមលក់",
     "name_en": "Cost of sales",
     "group": "Cost Of Revenues",
     "bal_type": "dr",
     "period_type": "duration",
-    "nature_group": "Cost Of Revenues",
+    "nature_group": "Expenses",
     "note_line": "14",
     "desc_kh": "ចំនួនទឹកប្រាក់នៃថ្លៃដើមទំនិញ ឬសេវាដែលបានលក់ចេញ",
     "desc_en": "The amount of costs relating to expenses directly or indirectly attributed to the goods or services sold, which may include, but are not limited to, costs previously included in the measurement of inventory that has now been sold, unallocated production overheads and abnormal amounts of production costs of inventories."
   },
   {
     "code": "46",
-    "banhji_code": "0",
     "concept_name": "DistributionCosts",
     "name_kh": "ចំណាយលើការចែកចាយ",
     "name_en": "Distribution costs",
@@ -645,7 +599,6 @@
   },
   {
     "code": "47",
-    "banhji_code": "38",
     "concept_name": "AdministrativeExpense",
     "name_kh": "ចំណាយរដ្ឋបាល",
     "name_en": "Administrative expenses",
@@ -659,7 +612,6 @@
   },
   {
     "code": "48",
-    "banhji_code": "0",
     "concept_name": "ChangesInInventoriesOfFinishedGoodsAndWorkInProgress",
     "name_kh": "បម្រែបម្រួលសន្និធិជាផលិតផលសម្រេច និងផលិតផលមិនទាន់សម្រេច",
     "name_en": "Changes in inventories of finished goods and work in progress",
@@ -673,7 +625,6 @@
   },
   {
     "code": "49",
-    "banhji_code": "33",
     "concept_name": "RawMaterialsAndConsumablesUsed",
     "name_kh": "វត្ថុធាតុដើម និងទំនិញដែលបានប្រើប្រាស់",
     "name_en": "Raw materials and consumables used",
@@ -687,7 +638,6 @@
   },
   {
     "code": "50",
-    "banhji_code": "0",
     "concept_name": "RepairAndMaintenanceCosts",
     "name_kh": "ចំណាយលើការជួសជុល និងថែទាំ",
     "name_en": "Repair and maintenance costs ",
@@ -701,7 +651,6 @@
   },
   {
     "code": "51",
-    "banhji_code": "34",
     "concept_name": "EmployeeBenefitsExpense",
     "name_kh": "ចំណាយអត្ថប្រយោជន៍និយោជិត",
     "name_en": "Employee benefits expense",
@@ -715,7 +664,6 @@
   },
   {
     "code": "52",
-    "banhji_code": "39",
     "concept_name": "DepreciationAndAmortisationExpense",
     "name_kh": "ចំណាយរំលស់",
     "name_en": "Depreciation and amortisation expense",
@@ -729,7 +677,6 @@
   },
   {
     "code": "53",
-    "banhji_code": "41",
     "concept_name": "OtherExpenseByFunction",
     "name_kh": "ចំណាយផ្សេងទៀត, តាមមុខងារនៃចំណាយ",
     "name_en": "Other expense, by function",
@@ -743,7 +690,6 @@
   },
   {
     "code": "54",
-    "banhji_code": "38",
     "concept_name": "OtherExpenseByNature",
     "name_kh": "ចំណាយផ្សេងទៀត, តាមចរិតលក្ខណៈនៃចំណាយ",
     "name_en": "Other expenses, by nature",
@@ -757,7 +703,6 @@
   },
   {
     "code": "55",
-    "banhji_code": "0",
     "concept_name": "OtherGainsLosses",
     "name_kh": "ចំណេញ/ខាតផ្សេងទៀត",
     "name_en": "Other gains (losses)",
@@ -771,7 +716,6 @@
   },
   {
     "code": "56",
-    "banhji_code": "42",
     "concept_name": "FinanceIncome",
     "name_kh": "ចំណូលហិរញ្ញវត្ថុ",
     "name_en": "Finance income",
@@ -785,7 +729,6 @@
   },
   {
     "code": "57",
-    "banhji_code": "42",
     "concept_name": "FinanceCosts",
     "name_kh": "ចំណាយហិរញ្ញវត្ថុ",
     "name_en": "Finance costs",
@@ -799,7 +742,6 @@
   },
   {
     "code": "58",
-    "banhji_code": "43",
     "concept_name": "IncomeTaxExpenseContinuingOperations",
     "name_kh": "ចំណាយបង់ពន្ធ (ចំណូល)",
     "name_en": "Tax income (expense)",
@@ -813,7 +755,6 @@
   },
   {
     "code": "59",
-    "banhji_code": "0",
     "concept_name": "OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation",
     "name_kh": "លម្អៀងពីការប្តូរប្រាក់លើការបកប្រែ",
     "name_en": "Exchange differences on translation",
