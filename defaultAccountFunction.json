@@ -4698,7 +4698,7 @@
       "group"       : "Other gains (losses)",
       "bal_type"    : "cr"                  ,
       "period_type" : "duration"            ,
-      "nature_group": "Expenses"            ,
+      "nature_group": "Revenues"            ,
       "note_line"   : "0"                   ,
       "desc_en"     : ""
     },
@@ -4725,7 +4725,7 @@
       "group"       : "Other gains (losses)",
       "bal_type"    : "cr"                  ,
       "period_type" : "duration"            ,
-      "nature_group": "Expenses"            ,
+       "nature_group": "Revenues"            ,
       "note_line"   : "0"                   ,
       "desc_en"     : ""
     },
@@ -4752,7 +4752,7 @@
       "group"       : "Other gains (losses)",
       "bal_type"    : "cr"                  ,
       "period_type" : "duration"            ,
-      "nature_group": "Expenses"            ,
+       "nature_group": "Revenues"            ,
       "note_line"   : "0"                   ,
       "desc_en"     : ""
     },
@@ -4779,7 +4779,7 @@
       "group"       : "Other gains (losses)",
       "bal_type"    : "cr"                  ,
       "period_type" : "duration"            ,
-      "nature_group": "Expenses"            ,
+       "nature_group": "Revenues"            ,
       "note_line"   : "0"                   ,
       "desc_en"     : ""
     },
@@ -4806,7 +4806,7 @@
       "group"       : "Other gains (losses)",
       "bal_type"    : "cr"                  ,
       "period_type" : "duration"            ,
-      "nature_group": "Expenses"            ,
+       "nature_group": "Revenues"            ,
       "note_line"   : "0"                   ,
       "desc_en"     : ""
     },
@@ -4833,7 +4833,7 @@
       "group"       : "Finance income"  ,
       "bal_type"    : "cr"              ,
       "period_type" : "duration"        ,
-      "nature_group": "Expenses"        ,
+      "nature_group": "Revenues"        ,
       "note_line"   : "12"              ,
       "desc_en"     : ""
     },
@@ -4860,7 +4860,7 @@
       "group"       : "Finance income"  ,
       "bal_type"    : "cr"              ,
       "period_type" : "duration"        ,
-      "nature_group": "Expenses"        ,
+      "nature_group": "Revenues"        ,
       "note_line"   : "12"              ,
       "desc_en"     : ""
     },
