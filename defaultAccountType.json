@@ -709,7 +709,7 @@
     "group": "Other gains (losses)",
     "bal_type": "cr",
     "period_type": "duration",
-    "nature_group": "Expenses",
+    "nature_group": "Revenues",
     "note_line": "0",
     "desc_kh": "ចំនួនទឹកប្រាក់នៃចំណេញ/ខាតផ្សេងទៀត",
     "desc_en": "The gains (losses) that the entity does not separately disclose in the same statement or note."
@@ -722,7 +722,7 @@
     "group": "Finance income",
     "bal_type": "cr",
     "period_type": "duration",
-    "nature_group": "Expenses",
+    "nature_group": "Revenues",
     "note_line": "12",
     "desc_kh": "ចំនួនសមតុល្យនៃចំណូលដែលពាក់ព័ន្ធនឹងការប្រាក់ ព្រមទាំងសកម្មភាពហិរញ្ញប្បទានផ្សេងទៀតរបស់សហគ្រាស",
     "desc_en": "The amount of income associated with interest and other financing activities of the entity."
